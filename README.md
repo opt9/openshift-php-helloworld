@@ -1,3 +1,5 @@
-The OpenShift `php` cartridge documentation can be found at:
+OpenShift,Travis-CI, PHP example
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-php/README.md
+## Status
+
+[![Build Status](https://travis-ci.org/opt9/openshift-php-helloworld.png)](https://travis-ci.org/opt9/openshift-php-helloworld)
