@@ -8,6 +8,22 @@
     <h1>Hello World!</h1>
     <p>
         <?php
+      class User {
+          protected $name;
+
+          public function getName() {
+              return $this->name;
+          }
+
+          public function setName($name) {
+              $this->name = $name;
+          }
+
+          public function talk() {
+              return "Hello world!";
+          }
+      }
+
             $con = mysqli_connect(getenv('OPENSHIFT_MYSQL_DB_HOST'), getenv('OPENSHIFT_MYSQL_DB_USERNAME'),
               getenv('OPENSHIFT_MYSQL_DB_PASSWORD'), getEnv('OPENSHIFT_APP_NAME'), getEnv('OPENSHIFT_MYSQL_DB_PORT'));
             if (mysqli_connect_errno()) {
