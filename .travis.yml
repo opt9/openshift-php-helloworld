@@ -3,4 +3,4 @@ language: php
 php:
   - 5.4
 
-script: phpunit UnitTest php/indexTest.php
+script: phpunit UnitTest UnitTest.php
