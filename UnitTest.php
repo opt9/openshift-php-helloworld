@@ -2,7 +2,7 @@
 require_once "PHPUnit/Autoload.php";
 require_once "./php/index.php";
 
-classs indexTest extends PHPUnit_Framework_TestCase
+class indexTest extends PHPUnit_Framework_TestCase
 {
     // test the talk method
     public function testTalk() {
