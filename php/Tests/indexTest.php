@@ -3,6 +3,8 @@ if (!@include __DIR__ . '/../vendor/autoload.php') {
     die('You must set up the project dependencies, run the following commands:
         wget http://getcomposer.org/composer.phar
         php composer.phar install');
+}
+require_once "/../vendor/autoload.php";
 require_once "php/index.php";
 
 class indexTest extends PHPUnit_Framework_TestCase
